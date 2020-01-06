@@ -1,5 +1,5 @@
 header {
-    background-color:black;
+    background-color: gray;
     display: flex;
     justify-content: space-around;
     height: 80px;
@@ -10,18 +10,17 @@ header {
 }
 
 .drop-down-menu, .drop-down-menu-open, .drop-down-menu-closed{
-    width: 100vh;
-    height: 50vh;
+    width: 100vw;
+    height: 25vh;
     position: absolute;
+    left: 0px;
     top: 80px;
     background:blue;
+    padding: 0px;
+    margin: 0px;
 
 }
 
-.drop-down-menu {
-    display: none;
-
-}
 
 
 .drop-down-menu-open{
@@ -33,7 +32,7 @@ header {
 
 }
 
-@keyFrames openMenu{
+@keyframes openMenu{
     /*target points in time in animation */
     0% {
         top: -1000px;
@@ -70,6 +69,7 @@ must be triggered to run by an action- click/hover/etc */
     margin-left: 10px;
     font-size: 25px;
     color: #fff;
+
 
 }
 

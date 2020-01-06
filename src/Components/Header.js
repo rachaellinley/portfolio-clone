@@ -33,11 +33,11 @@ export default class Header extends React.Component {
                 <li className='menu-text'>TEAM</li>
                 <li className='menu-text'>CONTACT</li>
                 <li>
-                    <div>MENU
+                    
                     <img
                     onClick={this.handleClick}
                     src='https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png' alt='menu icon'/>
-                    </div>
+                   
                 </li>
                 <ul className={this.state.menuStatus}>
                 <li>Services</li>
